@@ -1,0 +1,29 @@
+input:focus{
+  outline: none;
+  border: none;
+
+}
+.glass-form {
+
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  border-radius: 16px;
+  padding: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Light shadow */
+  backdrop-filter: blur(10px); /* Blurring the background */
+  -webkit-backdrop-filter: blur(10px); /* Blurring for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+}
+
+.glass-form input,
+.glass-form button {
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.3); /* Light background for inputs */
+  color: #000; /* Dark text color for readability */
+
+}
+
